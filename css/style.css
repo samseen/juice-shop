@@ -5,5 +5,9 @@
 
 html {
     font-size: 6px;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
