@@ -77,10 +77,12 @@ nav ul li a {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./../img/mobile-img.png');
-    min-height: calc(100vh - 43px);
+    min-height: calc(100vh - 66px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    display: flex;
+    align-items: center;
 }
 
 .hero__text-block {
