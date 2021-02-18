@@ -82,3 +82,9 @@ nav ul li a {
     background-size: cover;
     background-position: bottom;
 }
+
+.hero__text-block {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
