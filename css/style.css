@@ -4,7 +4,7 @@
 }
 
 html {
-    /* font-size: 6px; */
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -30,7 +30,7 @@ nav .logo-section {
     align-items: center;
 }
 
-nav .search-block {
+.search-block {
     border: 1px solid #D9DDE7;
     padding: 0.5rem 0.8rem;
     border-radius: 4px;
@@ -110,4 +110,14 @@ nav ul li a {
 
 .search-block.search-block--hero input:focus {
     outline: none;
+    border: none;
+}
+
+.search-block.search-block--hero {
+    margin-left: 0;
+    width: 70%;
+}
+
+.hero ::placeholder {
+    color: #fff;
 }
