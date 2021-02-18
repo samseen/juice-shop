@@ -121,3 +121,27 @@ nav ul li a {
 .hero ::placeholder {
     color: #fff;
 }
+
+.hero__btn-block {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__btn-block .btn {
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero__btn-block .btn-success {
+    background: #25DF8F;
+}
+
+.hero__btn-block .btn-secondary {
+    background: #C1C8D7;
+}
