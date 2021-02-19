@@ -148,3 +148,30 @@ nav ul li a {
 .hero__btn-block .btn-secondary {
     background: #C1C8D7;
 }
+
+.juices {
+    background: #F6F6F7;
+}
+
+.juices .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.juices .section-heading h2 {
+    font-weight: 400;
+    color: #2B313D;
+    font-size: 1.2rem;
+}
+
+.juices .section-heading h2 span {
+    color: #949FB7;
+}
+
+.juices .section-heading a {
+    color: #596172;
+    text-decoration: none;
+    font-size: 1rem;
+}
