@@ -245,7 +245,22 @@ section {
 }
 
 @media(min-width: 992px) {
-    /* .hero__image-block {
-        display: none;
-    } */
+    .hero {
+        background: #fff;
+    }
+
+    .hero__text-block {
+        width: 45%;
+    }
+
+    .hero__image-block {
+        display: block;
+        width: 55%;
+    }
+
+    .hero__text-block h1 {
+        color: #2B313D;
+        font-weight: 400;
+        width: 100%;
+    }
 }
