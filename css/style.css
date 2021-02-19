@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -247,15 +248,22 @@ section {
 @media(min-width: 992px) {
     .hero {
         background: #fff;
+        min-height: auto;
     }
 
     .hero__text-block {
         width: 45%;
+        margin-left: 5%;
     }
 
     .hero__image-block {
         display: block;
         width: 55%;
+    }
+
+    .hero__image-block img {
+        height: 100%;
+        width: 100%;
     }
 
     .hero__text-block h1 {
