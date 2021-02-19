@@ -211,6 +211,10 @@ section {
     line-height: 1.6;
 }
 
+.hero__image-block {
+    display: none;
+}
+
 /* Media Queries */
 @media(min-width: 897px) {
     nav .hamburger {
@@ -234,4 +238,14 @@ section {
     nav {
         flex-wrap: nowrap;
     }
+
+    .hero__text-block h1 {
+        width: 60%;
+    }
+}
+
+@media(min-width: 992px) {
+    /* .hero__image-block {
+        display: none;
+    } */
 }
