@@ -175,3 +175,13 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
+
+.juices__list-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+section {
+    padding: 2rem 0;
+}
