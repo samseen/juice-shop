@@ -185,3 +185,29 @@ nav ul li a {
 section {
     padding: 2rem 0;
 }
+
+.juices-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.juices__meta span {
+    color: #596172;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+}
+
+.juices__card img {
+    width: 100%;
+}
+
+.juices__title {
+    margin-top: 1rem;
+}
+
+.juices__title a {
+    color: #2B313D;
+    text-decoration: none;
+    line-height: 1.6;
+}
