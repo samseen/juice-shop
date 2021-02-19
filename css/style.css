@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 4000px;
 }
 
 .container {
@@ -210,4 +209,29 @@ section {
     color: #2B313D;
     text-decoration: none;
     line-height: 1.6;
+}
+
+/* Media Queries */
+@media(min-width: 897px) {
+    nav .hamburger {
+        display: none;
+    }
+
+    nav ul.nav-list {
+        width: auto;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    nav ul.nav-list li {
+        padding-bottom: 0;
+        margin-left: 1.8rem;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+    }
 }
